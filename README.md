@@ -15,7 +15,7 @@ About Us
 Contact (with form validation)
 Gallery
 Services
-Additional Page(s)
+Additional Pages
 The project emphasizes collaborative coding with Git & GitHub, using branching, pull requests, conflict resolution, and merge workflows.
 
 ⚙️ Setup Instructions
