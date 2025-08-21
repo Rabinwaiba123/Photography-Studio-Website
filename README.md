@@ -72,5 +72,3 @@ Collaborative version control using Git/GitHub
 Conflict resolution and team coordination
 
 The final product meets the course requirements and demonstrates teamwork and proper code management practices.
-
-# https://rabinwaiba123.github.io/Photography-Studio-Website/
