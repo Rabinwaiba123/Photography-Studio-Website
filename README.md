@@ -3,9 +3,9 @@ Frame & Focus Website
 A 6-page responsive website built for a photography studio called Frame & Focus.
 This project was developed as part of the Version Control System (VCS) Course – Summer Industry Enrichment 2025.
 
-Live Website: [Website-Frame & Focus](https://rabinwaiba123.github.io/Photography-Studio-Website/)
+Live Website: [Website - Frame & Focus](https://rabinwaiba123.github.io/Photography-Studio-Website/)
 
-GitHub Repository: [Repo- Frame & Focus ](https://github.com/Rabinwaiba123/Photography-Studio-Website)
+GitHub Repository: [Repo - Frame & Focus ](https://github.com/Rabinwaiba123/Photography-Studio-Website)
 
 📖 Project Description
 
