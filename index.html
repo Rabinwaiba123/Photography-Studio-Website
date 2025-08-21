@@ -1,11 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <title>Frame & Focus</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Professional photography services specializing in portraits, events, and commercial photography. Capturing your special moments with artistry and precision."
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="css/lightgallery.min.css" />
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+
+    <link rel="stylesheet" href="css/swiper.css" />
+
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      .hero-section {
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+          url("images/hero-bg.jpg") no-repeat center center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        color: white;
+      }
+
+      .feature-box {
+        transition: transform 0.3s ease;
+        margin-bottom: 30px;
+      }
+
+      .feature-box:hover {
+        transform: translateY(-10px);
+      }
+
+      .testimonial-card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        margin: 15px;
+      }
+
+      .stats-number {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #007bff;
+      }
+
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 15px;
+      }
+
+      .gallery-item {
+        overflow: hidden;
+        border-radius: 8px;
+        position: relative;
+        height: 250px;
+      }
+
+      .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+
+      .gallery-item:hover img {
+        transform: scale(1.1);
+      }
+
+      .gallery-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+        color: white;
+        padding: 20px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .gallery-item:hover .gallery-overlay {
+        opacity: 1;
+      }
+
+      @media (max-width: 768px) {
+        .hero-section {
+          height: 80vh;
+        }
+
+        .stats-number {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="site-wrap">
+      <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+      <header class="site-navbar py-3" role="banner">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-6 col-xl-2" data-aos="fade-down">
+              <h1 class="mb-0">
+                <a href="index.html" class="text-white h2 mb-0"
+                  >Frame & Focus</a
+                >
+              </h1>
+            </div>
+            <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
+              <nav
+                class="site-navigation position-relative text-right text-lg-center"
+                role="navigation"
+              >
+                <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-md-10 col-lg-8">
+              <h1 class="display-3 mb-4" data-aos="fade-up">
+                Capture Your Special Moments
+              </h1>
+              <p class="lead mb-5" data-aos="fade-up" data-aos-delay="100">
+                Professional photography services that tell your story through
+                stunning imagery. Specializing in portraits, events, and
+                commercial photography.
+              </p>
+              <div data-aos="fade-up" data-aos-delay="200">
+                <a href="contact.html" class="btn btn-primary py-3 px-5 mr-3"
+                  >Book a Session</a
+                >
+                <a href="gallery.html" class="btn btn-outline-light py-3 px-5"
+                  >View Portfolio</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="site-section py-5 bg-light">
+        <div class="container">
+          <div class="row justify-content-center mb-5">
+            <div class="col-md-7 text-center">
+              <h2 class="site-section-heading">Our Photography Services</h2>
+              <p>Professional photography for all occasions and needs</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="feature-box text-center p-4">
+                <span
+                  class="icon flaticon-camera display-3 text-primary mb-4 d-block"
+                ></span>
+                <h3 class="h4">Portrait Photography</h3>
+                <p>
+                  Beautiful individual, couple, and family portraits that
+                  capture personality and emotion in natural or studio settings.
+                </p>
+                <a href="services.html" class="btn btn-sm btn-outline-primary"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="feature-box text-center p-4">
+                <span
+                  class="icon flaticon-picture display-3 text-primary mb-4 d-block"
+                ></span>
+                <h3 class="h4">Wedding Photography</h3>
+                <p>
+                  Comprehensive coverage of your special day, from preparation
+                  to reception, capturing all the precious moments.
+                </p>
+                <a href="services.html" class="btn btn-sm btn-outline-primary"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="feature-box text-center p-4">
+                <span
+                  class="icon flaticon-frame display-3 text-primary mb-4 d-block"
+                ></span>
+                <h3 class="h4">Commercial Photography</h3>
+                <p>
+                  Professional product and business photography that enhances
+                  your brand image and marketing materials.
+                </p>
+                <a href="services.html" class="btn btn-sm btn-outline-primary"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Work Section -->
+      <section class="site-section py-5">
+        <div class="container">
+          <div class="row justify-content-center mb-5">
+            <div class="col-md-7 text-center">
+              <h2 class="site-section-heading">Featured Work</h2>
+              <p>A selection of our recent photography projects</p>
+            </div>
+          </div>
+          <div class="gallery-grid">
+            <div class="gallery-item" data-aos="fade-up">
+              <img
+                src="images/Urban Portraits.jpg"
+                alt="Portrait Photography"
+              />
+              <div class="gallery-overlay">
+                <h4>Urban Portraits</h4>
+                <p>Cityscape background</p>
+              </div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+              <img src="images/weding.jpg" alt="Wedding Photography" />
+              <div class="gallery-overlay">
+                <h4>Wedding</h4>
+                <p>Beach ceremony</p>
+              </div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+              <img
+                src="images/Mountain Landscape.jpg"
+                alt="Nature Photography"
+              />
+              <div class="gallery-overlay">
+                <h4>Mountain Landscape</h4>
+                <p>Sunrise capture</p>
+              </div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up">
+              <img
+                src="images/Product Showcase.jpg"
+                alt="Product Photography"
+              />
+              <div class="gallery-overlay">
+                <h4>Product Showcase</h4>
+                <p>Studio lighting</p>
+              </div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+              <img src="images/Corporate Event.jpg" alt="Event Photography" />
+              <div class="gallery-overlay">
+                <h4>Corporate Event</h4>
+                <p>Conference coverage</p>
+              </div>
+            </div>
+            <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+              <img src="images/Cultural Journey.jpg" alt="Travel Photography" />
+              <div class="gallery-overlay">
+                <h4>Cultural Journey</h4>
+                <p>Travel series</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-5" data-aos="fade-up">
+            <a href="single.html" class="btn btn-primary py-3 px-5"
+              >View Full Portfolio</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Section -->
+      <section class="site-section py-5 bg-dark text-white">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-3 col-6 mb-4" data-aos="fade-up">
+              <div class="stats-number">500+</div>
+              <p>Projects Completed</p>
+            </div>
+            <div
+              class="col-md-3 col-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="stats-number">250+</div>
+              <p>Happy Clients</p>
+            </div>
+            <div
+              class="col-md-3 col-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="stats-number">12</div>
+              <p>Years Experience</p>
+            </div>
+            <div
+              class="col-md-3 col-6 mb-4"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="stats-number">28</div>
+              <p>Awards Won</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="site-section py-5">
+        <div class="container">
+          <div class="row justify-content-center mb-5">
+            <div class="col-md-7 text-center">
+              <h2 class="site-section-heading">Client Testimonials</h2>
+              <p>What our clients say about our work</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="testimonial-card">
+                <p class="mb-4">
+                  "The team at Frame & Focus captured our wedding day perfectly.
+                  The photos tell the story of our day better than we could have
+                  imagined. Their attention to detail and creative eye made all
+                  the difference."
+                </p>
+                <div class="client-info">
+                  <h5 class="mb-0">Jennifer & Michael</h5>
+                  <p class="text-muted">Wedding Clients</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="testimonial-card">
+                <p class="mb-4">
+                  "We've used Frame & Focus for our product photography for
+                  three years now. Their ability to make our products look
+                  exceptional has directly contributed to increased online
+                  sales. Professional and reliable."
+                </p>
+                <div class="client-info">
+                  <h5 class="mb-0">David Chen</h5>
+                  <p class="text-muted">E-commerce Business Owner</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="testimonial-card">
+                <p class="mb-4">
+                  "Our family portrait session was such a pleasant experience.
+                  The photographer made us feel comfortable and captured our
+                  family's dynamic beautifully. The photos are treasures we'll
+                  cherish forever."
+                </p>
+                <div class="client-info">
+                  <h5 class="mb-0">The Williams Family</h5>
+                  <p class="text-muted">Family Portrait Clients</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="site-section py-5 bg-primary text-white">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-md-8">
+              <h2 class="mb-4">Ready to Create Lasting Memories?</h2>
+              <p class="mb-4">
+                Let's discuss your photography needs and create something
+                beautiful together
+              </p>
+              <a href="contact.html" class="btn btn-light py-3 px-5"
+                >Get in Touch</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer py-4">
+        <div class="container-fluid text-center">
+          <p>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Frame & Focus Photography. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/picturefill.min.js"></script>
+    <script src="js/lightgallery-all.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        // Initialize animations
+        AOS.init({
+          duration: 1000,
+          easing: "ease-in-out",
+          once: true,
+        });
+      });
+    </script>
+  </body>
 </html>
