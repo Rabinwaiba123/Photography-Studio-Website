@@ -32,10 +32,10 @@ No extra installations are required since this project uses pure HTML, CSS, and 
 
 👥 Contributors
 Name	           GitHub Profile	College ID	University ID
-Ankit Pyakurel	@ankitpyakurel	NP01CP4A240062	24046711
-Jayanta Subedi	@jayanta48      NP01CP4A240267	24046874
-Rabin Waiba	@Rabinwaiba123      NP01CP4A240275	24046950
-Atulya Joshi  	NP01CP4A240078	24046833
+Ankit Pyakurel	[@ankitpyakurel](https://github.com/Ankit0921)	NP01CP4A240062	24046711
+Jayanta Subedi	[@jayantasubedi](https://github.com/jayanta48)  NP01CP4A240267	24046874
+Rabin Waiba	    [@rabinwaiba](https://github.com/Rabinwaiba123)     NP01CP4A240275	24046950
+Atulya Joshi  	[@ankitpyakurel](https://github.com/AtulyaJoshi-user)  NP01CP4A240078	24046833
 
 📸 Screenshots / Demo
 Home Page
