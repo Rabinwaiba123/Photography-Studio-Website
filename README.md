@@ -31,7 +31,7 @@ Open the index.html file in your browser.
 No extra installations are required since this project uses pure HTML, CSS, and JavaScript.
 
 👥 Contributors
-Name	GitHub Profile	College ID	University ID
+Name	           GitHub Profile	College ID	University ID
 Ankit Pyakurel	@ankitpyakurel	NP01CP4A240062	24046711
 Jayanta Subedi	@jayanta48      NP01CP4A240267	24046874
 Rabin Waiba	@Rabinwaiba123      NP01CP4A240275	24046950
