@@ -38,12 +38,7 @@ Rabin Waiba	    [@rabinwaiba](https://github.com/Rabinwaiba123)      NP01CP4A240
 Atulya Joshi  	[@atulyajoshi](https://github.com/AtulyaJoshi-user)  NP01CP4A240078	24046833
 
 📸 Screenshots / Demo
-Home Page
-
-Gallery Page
-
-Contact Form
-
+![demo video] (./screenshot/Animation.gif)
 
 🛠️ Git Workflow Summary
 
